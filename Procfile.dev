@@ -1,2 +1,2 @@
 web: bundle exec rails s
-webpacker: ./bin/webpack-dev-server
+webpacker: API_URI=http://localhost:3000/ ./bin/webpack-dev-server
